@@ -20,6 +20,8 @@ namespace AutoTranslate
         private static InputSimulator sim = new InputSimulator();
         private static NotifyIcon trayIcon = new NotifyIcon();
         public static string hotkey = "F5";
+        public static string inputLang = "English";
+        public static string outputLang = "Japanese";
 
         [STAThread]
         public static void Main()
@@ -84,7 +86,7 @@ namespace AutoTranslate
                     trayIcon.Icon = Properties.Resources.icon;
                     if (toTranslate != "")
                     {
-                        string translation = t.Translate(toTranslate, "English", "Japanese");
+                        string translation = t.Translate(toTranslate, inputLang, outputLang);
                         for (var i = 0; i < toTranslate.Length; i++)
                         {
                             sim.Keyboard.KeyPress(VirtualKeyCode.BACK);

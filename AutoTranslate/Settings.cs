@@ -26,5 +26,15 @@ namespace AutoTranslate
         {
             Program.hotkey = domainUpDown1.Text;
         }
+
+        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.inputLang = comboBox1.Text;
+        }
+
+        private void ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Program.outputLang = comboBox2.Text;
+        }
     }
 }
