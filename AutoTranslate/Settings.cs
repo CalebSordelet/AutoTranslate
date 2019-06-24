@@ -22,7 +22,7 @@ namespace AutoTranslate
             this.Close();
         }
 
-        private void DomainUpDown1_SelectedItemChanged(object sender, EventArgs e)
+        private void DomainUpDown1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Program.hotkey = domainUpDown1.Text;
         }
