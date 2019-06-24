@@ -27,7 +27,6 @@ namespace AutoTranslate
         public static void Main()
         {
             _hookID = SetHook(_proc);
-            
             trayIcon.Text = "AutoTranslate By Caleb Sordelet";
             trayIcon.Icon = Properties.Resources.icon;
             ContextMenu trayMenu = new ContextMenu();
