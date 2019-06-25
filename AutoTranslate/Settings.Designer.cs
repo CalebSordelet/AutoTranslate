@@ -65,11 +65,11 @@
             this.comboBox1.Items.AddRange(new object[] {
             "English",
             "Japanese"});
-            this.comboBox1.Location = new System.Drawing.Point(73, 63);
+            this.comboBox1.Location = new System.Drawing.Point(73, 36);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(125, 21);
             this.comboBox1.TabIndex = 4;
-            this.comboBox1.Text = Program.inputLang;
+            this.comboBox1.Text = "English";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
             // label2
@@ -98,11 +98,11 @@
             this.comboBox2.Items.AddRange(new object[] {
             "English",
             "Japanese"});
-            this.comboBox2.Location = new System.Drawing.Point(73, 36);
+            this.comboBox2.Location = new System.Drawing.Point(73, 63);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(125, 21);
             this.comboBox2.TabIndex = 7;
-            this.comboBox2.Text = Program.outputLang;
+            this.comboBox2.Text = "Japanese";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.ComboBox2_SelectedIndexChanged);
             // 
             // domainUpDown1
@@ -125,7 +125,7 @@
             this.domainUpDown1.Name = "domainUpDown1";
             this.domainUpDown1.Size = new System.Drawing.Size(125, 21);
             this.domainUpDown1.TabIndex = 8;
-            this.domainUpDown1.Text = Program.hotkey;
+            this.domainUpDown1.Text = "F5";
             this.domainUpDown1.SelectedIndexChanged += new System.EventHandler(this.DomainUpDown1_SelectedIndexChanged);
             // 
             // Settings
