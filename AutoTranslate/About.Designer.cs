@@ -63,7 +63,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 17);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Version 0.0.1";
+            this.label3.Text = "Version 1.0.0";
             // 
             // button1
             // 
